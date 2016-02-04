@@ -1,0 +1,34 @@
+h1 {
+   font-family: "Helvitica", Helvitica, sans-serif;
+   margin: 15px;
+   text-align: center;
+}
+h2 {
+   font-family: "Helvitica", Helvitica, sans-serif;
+   margin: 15px;
+}
+h3 {
+  font-family: "Helvitica", Helvitica, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-family: sans-serif;
+   margin: 15px;
+}
+.header {
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+#imgheader {
+  background-image: url('http://trulydietz.com/home/wp-content/uploads/2016/01/imgheader.jpg');
+ background-color: steelblue;
+  width: 100%;
+  height: 50px;
+}
+
+img{
+ width=100%
+  }
+}
