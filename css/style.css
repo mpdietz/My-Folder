@@ -25,10 +25,11 @@ p {
   background-image: url('http://trulydietz.com/home/wp-content/uploads/2014/09/PSX_20140825_000559.jpg');
  background-color: steelblue;
   width: 100%;
-  height: 50px;
+  height: 100%;
 }
 
 img{
- width=100%
+ width: 200%;
+height: 200%;
   }
 }
