@@ -11,7 +11,7 @@
   <meta name="author" content="SitePoint">
 
  <link rel="stylesheet" href="css/style.css">		
- 
+ <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 
 
   <!--[if lt IE 9]>
@@ -25,24 +25,24 @@
 <Div id = imgheader>
 </Div>
 <br>
-<Div class = header>
+<Div class = "header">
 </Div>
 <h2>
 From the Eyes of a Planner
 </h2>
-<div id = introparagraph>
+<div id = "introparagraph">
 <p>
 The various images below represent key elements of planning significant to any urban planner. 
 </p>
 </div>
-<Div class = header>
+<Div class = "header">
 </Div>
 
-<Span id=DisplayText> <h3> Display Text </h3> </Span>
+<Span id= "DisplayText"> <h3> Display Text </h3> </Span>
 
 <Div class = header>
 </Div>
-<div id =table1>
+<div id ="table1">
 <table style="width:100%">
   <tr>
     <td>
@@ -58,10 +58,11 @@ The various images below represent key elements of planning significant to any u
      <td><span data-title='publicspace'> <img data-alt-src='http://trulydietz.com/home/wp-content/uploads/2016/01/publicspace.jpg' src='http://trulydietz.com/home/wp-content/uploads/2016/01/publicspace2.jpg'></span></td> 
   </tr>
 </table>
+<div id="myMap"></div>
 </div>
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 <script src="js/jquery.js"></script>
  <script src="js/script.js"></script>
-
 
 </body>
 </html>
